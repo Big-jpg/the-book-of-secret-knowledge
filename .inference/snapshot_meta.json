@@ -1,0 +1,55 @@
+{
+  "created_utc": "2025-08-27T15:30:59.2948691Z",
+  "root": "/home/runner/work/the-book-of-secret-knowledge/the-book-of-secret-knowledge/target",
+  "files_scanned": 47,
+  "files_kept": 6,
+  "max_file_mb": 5,
+  "redacted": true,
+  "largest_files": [
+    {
+      "SizeKB": 206.7,
+      "Path": "README.md"
+    },
+    {
+      "SizeKB": 3.1,
+      "Path": ".github/CODE_OF_CONDUCT.md"
+    },
+    {
+      "SizeKB": 2.1,
+      "Path": ".github/CONTRIBUTING.md"
+    },
+    {
+      "SizeKB": 1.0,
+      "Path": "LICENSE.md"
+    },
+    {
+      "SizeKB": 0.6,
+      "Path": ".github/workflows/snapshot.yml"
+    },
+    {
+      "SizeKB": 0.0,
+      "Path": ".github/FUNDING.yml"
+    }
+  ],
+  "by_extension": [
+    {
+      "ext": ".md",
+      "files": 4,
+      "loc": 4566,
+      "bytes": 218087
+    },
+    {
+      "ext": ".yml",
+      "files": 2,
+      "loc": 20,
+      "bytes": 700
+    }
+  ],
+  "total_loc": 4586,
+  "git_summary": {
+    "tags": "",
+    "branches": "* master b86135e [origin/master] introduce llm snapshot \trenamed:    .github/snapshot.yml -> .github/workflows/snapshot.yml",
+    "remotes_sanitized": "origin\thttps://github.com/Big-jpg/the-book-of-secret-knowledge (fetch)\norigin\thttps://github.com/Big-jpg/the-book-of-secret-knowledge (push)",
+    "contributors_shortlog": ""
+  }
+}

@@ -1,0 +1,27 @@
+Snapshot Time: 2025-08-27 15:30:59 +00:00
+Root: /home/runner/work/the-book-of-secret-knowledge/the-book-of-secret-knowledge/target
+Output: /home/runner/work/the-book-of-secret-knowledge/the-book-of-secret-knowledge/out_snapshot
+Files kept: 6 / scanned: 47
+MaxFileMB: 5; RedactSecrets: True
+
+By Extension (Count, LOC, KB):
+  .md     files=    4  loc=   4566  size=     213 KB
+  .yml    files=    2  loc=     20  size=     0.7 KB
+
+Skip reasons:
+  By extension: 1
+  By file name: 0
+  By directory: 40
+  By user exclude: 0
+  By size: 0
+  Binary heuristic: 0
+
+Total LOC (approx): 4586
+
+Largest 40 kept files:
+     206.7 KB  README.md
+       3.1 KB  .github/CODE_OF_CONDUCT.md
+       2.1 KB  .github/CONTRIBUTING.md
+         1 KB  LICENSE.md
+       0.6 KB  .github/workflows/snapshot.yml
+         0 KB  .github/FUNDING.yml

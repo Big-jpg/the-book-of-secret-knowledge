@@ -1,0 +1,13 @@
+target
+└── target
+    ├── .github
+    │   ├── workflows
+    │   │   ├── snapshot.yml
+    │   ├── CODE_OF_CONDUCT.md
+    │   ├── CONTRIBUTING.md
+    │   ├── FUNDING.yml
+    ├── static
+    │   └── img
+    │       ├── the-book-of-secret-knowledge-preview.png
+    ├── LICENSE.md
+    ├── README.md

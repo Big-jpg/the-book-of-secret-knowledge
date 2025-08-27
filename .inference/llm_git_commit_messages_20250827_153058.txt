@@ -1,0 +1,5 @@
+b86135e 2025-08-27 ross farrell
+introduce llm snapshot
+	renamed:    .github/snapshot.yml -> .github/workflows/snapshot.yml
+
+---

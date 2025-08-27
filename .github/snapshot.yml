@@ -1,0 +1,18 @@
+name: Snapshot My Repo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-snapshot:
+    uses: Big-jpg/minima/.github/workflows/external-llm-snapshot.yml@main  # ← add @ref and correct file name
+    with:
+      target_repo: Big-jpg/the-book-of-secret-knowledge
+      ref: ${{ github.ref_name }}     # or "main", but this tracks the dispatched ref
+      redact: true
+      maxFileMB: 5
+      include: ""                     # e.g., "^src/,^CMakeLists\.txt$"
+      exclude: ""                     # e.g., "^docs/,^media/"
+    # Forward secrets to the called workflow if needed (e.g., private targets):
+    secrets:
+      SNAPSHOT_TOKEN: ${{ secrets.SNAPSHOT_TOKEN }}
